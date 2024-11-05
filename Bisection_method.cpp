@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#define FlashIO()       (ios_base:: sync_with_stdio(false),cin.tie(NULL));
 using namespace std;
 
 const double Max_diff = 1e-5;
@@ -44,8 +43,6 @@ double Bisection_Method(double a,double b)
 
 int32_t main()
 {
-	FlashIO();
-
 	//taking input of the interval
 	double a,b;
 	cout << "Enter the interval [a,b] : " ;
